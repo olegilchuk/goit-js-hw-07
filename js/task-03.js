@@ -22,4 +22,4 @@ const listImg = images.map(images => {
 });
 
 console.log(listImg);
-contImgEl.insertAdjacentHTML('beforeend', listImg);
+contImgEl.insertAdjacentHTML('beforeend', listImg.join(''));

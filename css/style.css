@@ -1,3 +1,7 @@
-.gallery-img {
-width: 500px;
+#gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
 }
